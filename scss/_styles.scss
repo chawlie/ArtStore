@@ -1,10 +1,16 @@
 h2.product-title {
 	font-size: rem-calc(20);
+	margin-bottom: 0;
 }
 .price {
 	display: block;
 	text-align: center;
 	font-weight: bold;
+	color: teal;
+	margin-bottom: 13px;
+}
+a:hover .price {
+	color: #fff;
 }
 .product-image img {
 	width: 100%;
@@ -27,9 +33,7 @@ h2.product-title {
 	margin-left: 2px;
 }
 .navigation a:hover, .navigation .active {
-	background-color: teal;
-	color: #fff;
-	border-radius: 4px;
+	border-bottom: 2px solid teal;
 }
 .navigation {
 	padding-top: 35px;
@@ -91,4 +95,22 @@ a:hover div.product-info {
 }
 .logo {
 	text-align: center !important;
+}
+.my-modal {
+	position: relative !important;
+}
+a.button.my-modal.close-reveal-modal {
+	background-color: #ccc;
+	color: #777;
+	font-size: rem-calc(16);
+	border-radius: 2px;
+	top: 0;
+	right: 0;
+	left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.featured {
+	font-size: rem-calc(20) !important;
 }

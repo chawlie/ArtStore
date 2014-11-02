@@ -1,0 +1,9 @@
+@media only screen and (max-width: 500px) {
+    h2.product-title, .media {
+        font-size: rem-calc(12);
+        margin-bottom: 0px;
+    }
+    .media, .dimension {
+        font-size: rem-calc(12);
+    }
+}
